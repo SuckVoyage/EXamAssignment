@@ -128,7 +128,7 @@ void ManagmentSystem::printDepartment() const
     string depName;
     cout << "Enter department name - ";
     cin >> depName;
-    Employee* temp = director->findDepartment(depName);
+    Employee* temp = director->findDepartmentBoss(depName);
     if (temp) {
         temp->print(0);
     }
@@ -144,7 +144,7 @@ long long ManagmentSystem::departmentSalaryCount() const
     string depName;
     cout << "Enter department name - ";
     cin >> depName;
-    Employee* temp = director->findDepartment(depName);
+    Employee* temp = director->findDepartmentBoss(depName);
     if (temp) {
         return temp->salaryCount();
     }
