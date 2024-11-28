@@ -1,0 +1,5 @@
+Petrov Peter 1300000 CompanyH
+Ivanov Vasya 110000p
+Kuznetsov Maxim 130000d
+Petrov Nicolai 200000 ProgrammingH
+Sidorov Vasilii 120000p
